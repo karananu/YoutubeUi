@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sonu Youtube App</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="bg-gray-100 font-Roboto antialiased">
+    <!--Header-->
+    <header class="bg-white divide-y ml-18 border-b">
+      <div class="flex justify-between items-center h-14 mx-4">
+        <div class="-ml-3">
+          <img src="images/yt-logo.png" alt="youtube logo" class="w-20 h-12" />
+        </div>
+        <div class="flex items-center justify-center 
+        flex-grow">
+          <input
+            type="text"
+            placeholder="Search"
+            class="border rounded-lg border-gray-400 h-8 px-1 py-2 focus:outline-none focus:border-blue-600 w-3/5"
+          />
+          <button
+            class="bg-grey-200 flex item-center justify-center h-8 w-16   "
+          >
+            <i class="material-icons ml-3">search</i>
+          </button>
+        </div>
+        <div class="flex items-center justify-center space-x-4">
+          <button
+           class="flex items-center justify-center"><i class="material-icons">video_call</i></button>
+          <button class="flex items-center justify-center"><i class="material-icons">apps</i></button>
+          <button class="flex items-center justify-center"><i class="material-icons">notifications</i></button>
+          <button class="flex items-center justify-center"><div class="h-8 w-8 
+            rounded-full bg-blue-300"><img src="https://yt3.ggpht.com/I2KKcdnEZVfbXow0edoMtWPSYQcV2aMUefTCfCgcEMBrn7zwMNRr9pNnDi4lUChdPG1go2W5=s88-c-k-c0x00ffffff-no-rj-mo"/></button>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center py-3 px-4 space-x-3">
+          <span class="text-sm bg-gray-700 border 
+          border-gray-800 rounded-full px-1 py-1 text-gray-200 
+          shadow-inset w-14 text-center">All </span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inner  w-14 text-center">Mixes</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-iner  ">Music</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inner   ">Computer Programming</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inner  ">Chill-out music</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inner  ">Bollywood</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inner">Indian soap operas</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inset ">Hindi Music</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inset ">Live</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inset ">Scene</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inset ">Gate Exam</span>
+          <span class="text-sm bg-gray-200 border 
+          border-gray-300 rounded-full px-1 py-1 text-gray-800
+          shadow-inset ">Gaming</span>
+        </div>
+      </header>
+        <aside class="fixed top-0 w-18 h-screen  bg-white flex items-center flex-col mt-4 text-gray-700">
+           <button class="w-16"><i class="material-icons">menu</i></button>
+          <div class="mt-6 w-full">
+            <button class="flex item-center 
+            justify-center flex-col hover:bg-gray-300
+            py-4 w-full text-red-700">
+              <i class="material-icons small">home</i>
+            <span class="text-xs">Home</span>
+            </button>
+            <button class="flex item-center 
+            justify-center flex-col hover:bg-gray-300
+            py-4 w-full">
+              <i class="material-icons small">local_fire_department</i>
+            <span class="text-xs">Trending</span>
+            </button>
+            <button class="flex item-center 
+            justify-center flex-col hover:bg-gray-300
+            py-4 w-full">
+              <i class="material-icons small">subscriptions</i>
+            <span class="text-xs">Subscriptions</span>
+            </button>
+            <button class="flex item-center 
+            justify-center flex-col hover:bg-gray-300
+            py-4 w-full ">
+              <i class="material-icons small">video_library</i>
+            <span class="text-xs">Library</span>
+            </button>
+          </div>
+          </aside>
+      <main class="ml-24 pt-8">
+        <div>
+          <h3 class="text-xl font-bold">Recommended</h3>
+          <div class="mt-4 grid grid-cols-4 row-gap-10 col-gap-2">
+                
+            <div class="w-68  border-8    rounded-lg ">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img  src="https://i.ytimg.com/vi/XcW9MABKK90/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZxOnnkabhGRW7w_bouHpEQ-0rzw"  alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden" >
+                        <img src="https://yt3.ggpht.com/zgMN9BuSQByG1SrpmLwcNB3MQhjDhS_pl9H1h7TaRievMfS4UpU7Z36j77z5_hnIW4N8uFX3NA=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Beast of Banglore| Official Trailer|Nextflix india</div>
+                        <div class="text-xs text-gray-600">
+                            <p></p>
+                            <p> 424k views 10 days ago &middot; </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/6zf2dNLS-fs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDDMHb0FeOvfjiwz4HYH3-6P-22tA" alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/v_PwNTRdcmpaEU6zh9wytm0ERtq2BOAmBQvr1QyZstphlpcPUqjbX3wqIvSRR9bWIgSjmRUJcwE=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Jehda Nasha(Full Video)An Action Hero | Ayushmann Nora |Tanishk </div>
+                        <div class="text-xs text-gray-600">
+                            <p>T-Series</p>
+                            <p>136k views &middot; 46minutes ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/3euDY96MbUA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD9PSg3bC2Zr6im8gxQiX52tAR8w"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/0oIteEjNWIT9SNpa-Koo1A__r771UFZWJ_2AqnNCF3CfhK0wDgC04euLz62bTWsXqMbIC4Rr=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Funniest Animals 2022 😂 Funniest Cats and Dogs 😺🐶 Part 24 | Pets </div>
+                        <div class="text-xs text-gray-600">
+                            <p>Pet Family</p>
+                            <p>9.8 views &middot; 4days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/gH_RYRwVrVM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIqUOOhFvVXBi-opG7s-YypPTFdA"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu9RteEQGryX63-N8WJML_L-oG_XwJ1iZgyFtYqQag=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                        <div class="text-xs text-gray-600">
+                            <p>Hombale films</p>
+                            <p>38M views  &middot; 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/JzVhC5UBLO0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBY7wP4lPIn-xc6jG1c5zQqFan2rQ"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1570724061670-86a53c509dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">अपनी 'Helium Voice' सुनकर हंस पड़े Urvashi Rautela और John Abraham! |</div>
+                        <div class="text-xs text-gray-600">
+                            <p>SET INDIA</p>
+                            <p>927 views &middot; 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg " >
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/an_webp/MUMCZZl9QCY/mqdefault_6s.webp?du=3000&sqp=CKTd3JwG&rs=AOn4CLD5DylxspPUaNl6d9oJYoPBb8OJBQ"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/vzccd947ZTCKG3FC9qa7geaB-O7euPpCQB0_PzRdzdKa-pPNvSkG686Luyq_TTUdV14W_es6ZeY=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">हिंदी Oggy and the Cockroaches 🔧 KEYS & IDEAS 🔧 Hindi Cartoons </div>
+                        <div class="text-xs text-gray-600">
+                            <p>Oggy hindi</p>
+                            <p>
+                                49M views 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/g6fnFALEseI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhjRAPT74CBH7ZcHhWxXSXoIAyOw"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu8yf1gliJiSD3sWZU3RfwDbFSxFLioF0xggBRwMyw=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                        <div class="text-xs text-gray-600">
+                            <p>Sony Music India</p>
+                            <p>9 hours ago &middot; 87k views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68 border-8    rounded-lg">
+                <div class="h-40 w-full bg-gray-700 overflow-hidden">
+                    <img src="https://i.ytimg.com/an_webp/t0Q2otsqC4I/mqdefault_6s.webp?du=3000&sqp=CLDx3JwG&rs=AOn4CLD8i93AKQR3iQgvJe_-TD8eFiKStQ"
+                        alt="">
+                </div>
+                <div class="flex mt-2">
+                    <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu80jIF6oehgpUILTaUbqSM5xYHWbPoc_Bz7wddxzg=s68-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                    </div>
+                    <div class="ml-2">
+                        <div class="text-sm font-bold">Tom & Jerry |Tom & Jerry in full Screen</div>
+                        <div class="text-xs text-gray-600">
+                            <p>WB</p>
+                            <p> 9 hrs ago &middot;293M views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        </div>
+        
+    </div>
+      </main>
+  </body>
+</html>
